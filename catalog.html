@@ -303,10 +303,25 @@
       <!-- Сколько показывать гостиниц в фильтре -->
       <div class="shown-pieces">
         <h3 class="visually-hidden">Сколько гостиниц показывать на странице</h3>
-        <span class="shown-pieces-title">Гостиниц на странице</span>
-        <select class="select-shown-pieces" name="shown-pieces" id="shown-pieces">
-          <option value="four">4</option>
-        </select>
+        <span class="shown-pieces-title">Гостиниц на странице:</span>
+        <details class="select-shown-pieces">
+          <summary class="select-button">4</summary>
+
+          <ul class="select-menu">
+            <li class="select-item select-item-active">
+              <a class="select-option" href="#">5</a>
+            </li>
+            <li class="select-item">
+              <a class="select-option" href="#">6</a>
+            </li>
+            <li class="select-item">
+              <a class="select-option" href="#">9</a>
+            </li>
+            <li class="select-item">
+              <a class="select-option" href="#">12</a>
+            </li>
+          </ul>
+        </details>
       </div>
     </section>
 
