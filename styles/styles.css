@@ -144,6 +144,56 @@ ol {
   color: #000000;
 }
 
+.catalog-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.catalog-main {
+  background-image: url("/images/catalog-background\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.control-label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.range-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  color: #FFFFFF;
+  opacity: 0.3;
+}
+
+.range-input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
 .black {
   color: #000000
 }
