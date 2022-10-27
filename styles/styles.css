@@ -194,6 +194,21 @@ ol {
   color: #FFFFFF;
 }
 
+.sorting-result-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.select-control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
 .black {
   color: #000000
 }
