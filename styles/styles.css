@@ -135,6 +135,15 @@ ol {
   color: #FFFFFF;
 }
 
+.footer-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
 .black {
   color: #000000
 }
