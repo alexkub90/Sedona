@@ -51,3 +51,9 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+
+.main-index {
+  background-image: url("/images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
