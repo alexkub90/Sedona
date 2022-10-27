@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: url("/fonts/PTSans-Regular.woff") format("woff");
-    font-display: swap;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/PTSans-Regular.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: url("/fonts/PTSans-Bold.woff") format("woff");
-    font-display: swap;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/PTSans-Bold.woff") format("woff");
+  font-display: swap;
 }
 
 @font-face {
@@ -30,11 +30,11 @@
 }
 
 body {
-    font-family: "PT Sans", sans-serif;
-    font-size: 20px;
-    line-height: 26px;
-    background: #F2F2F2;
-    color: #242424;
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  background: #F2F2F2;
+  color: #242424;
 }
 
 .main-header {
@@ -56,4 +56,23 @@ body {
   background-image: url("/images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.welcome-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.welcome-content {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+}
+
+ol {
+  list-style-type: none;
 }
