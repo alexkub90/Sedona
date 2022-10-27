@@ -34,4 +34,20 @@ body {
     font-size: 20px;
     line-height: 26px;
     background: #F2F2F2;
+    color: #242424;
+}
+
+.main-header {
+  color: #000000;
+}
+
+.navigation-link {
+  border: 1px solid red;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
 }
