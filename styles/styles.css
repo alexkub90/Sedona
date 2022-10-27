@@ -209,6 +209,86 @@ ol {
   color: #333333;
 }
 
+.hotel-card-link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.card-description-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.card-description-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.hotel-card-rating {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.pagination-list {
+  list-style-type: none;
+}
+
+.pagination-link-current {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.pagination-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.shown-pieces-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.select-button {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+
+.field-input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* display: flex;
+  align-items: center; */
+  color: #000000;
+  opacity: 0.6;
+}
+
 .black {
   color: #000000
 }
