@@ -41,6 +41,10 @@ body {
   color: #000000;
 }
 
+.navigation {
+  background-color: #FFFFFF;
+}
+
 .navigation-link {
   border: 1px solid red;
   font-weight: 700;
@@ -79,6 +83,10 @@ ol {
   list-style-type: none;
 }
 
+.advantages-item {
+  background: #83B3D3;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -94,6 +102,10 @@ ol {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.hotels-search {
+  background-color: #FFFFFF;
 }
 
 .hotels-search-title {
@@ -133,6 +145,10 @@ ol {
   line-height: 26px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.main-footer {
+  background-color: #FFFFFF;
 }
 
 .footer-phone {
