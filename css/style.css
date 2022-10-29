@@ -41,6 +41,14 @@
   font-size: 20px;
 }
 
+.button-reset {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background: transparent;
+}
+
 .title {
   font-weight: 700;
   font-size: 30px;
@@ -141,53 +149,43 @@
 
 /* Catalog styles */
 
-.catalog-header-title {
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 78px;
-  color: #FFFFFF;
-}
-
-.breadcrumbs-link {
-  font-weight: 400;
+.breadcrumbs {
   font-size: 16px;
-  line-height: 21px;
-  color: #FFFFFF;
 }
 
 .catalog-main {
-  background-image: url("/images/catalog-background\ 1.jpg");
+  background-image: url("/images/backgrounds/catalog-background\ 1.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.catalog-header-title {
+  color: #FFFFFF;
+  font-size: 60px;
 }
 
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
-  color: #FFFFFF;
 }
 
-.control-label {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  color: #FFFFFF;
-}
-
+.control,
 .range-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
+}
+
+.range-transparent {
   text-align: right;
-  color: #FFFFFF;
   opacity: 0.3;
 }
 
 .range-input {
+  background: transparent;
   font-weight: 400;
+  font-family: inherit;
   font-size: 18px;
-  line-height: 23px;
   color: #FFFFFF;
 }
 
