@@ -135,8 +135,11 @@
   line-height: 40px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   color: #000000;
 }
+
+/* Catalog styles */
 
 .catalog-header-title {
   font-weight: 700;
