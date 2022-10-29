@@ -2,7 +2,7 @@
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/PTSans-Regular.woff") format("woff");
+  src: url("/fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,63 +10,53 @@
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/PTSans-Bold.woff") format("woff");
+  src: url("/fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url("/fonts/PTSans-Italic.woff") format("woff");
-}
+/* General */
 
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url("/fonts/PTSans-BoldItalic.woff") format("woff");
-  font-display: swap;
-}
-
-.page {
+.body {
   font-family: "PT Sans", sans-serif;
-  font-size: 20px;
-  line-height: 26px;
-  background: #F2F2F2;
+  font-size: 18px;
+  /* background: #F2F2F2; */
   color: #333333;
 }
 
-.main-header {
-  color: #000000;
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: #83B3D3;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
-.navigation {
-  background-color: #FFFFFF;
+.button-want {
+  background: #756257;
 }
 
-.navigation-link {
-  border: 1px solid red;
+/* Header */
+
+.navigation-list {
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
-  color: #000000;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
 }
 
-.main-index {
-  background-image: url("/images/index-background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
+.navigation-link {
+  color: #000000;
+  text-decoration: none;
 }
+
+/* Advantages */
 
 .welcome-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
+  /* text-align: center; */
   text-transform: uppercase;
   color: #000000;
 }
@@ -75,12 +65,8 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
-  text-align: center;
+  /* text-align: center; */
   color: #333333;
-}
-
-ol {
-  list-style-type: none;
 }
 
 .advantages-item {
