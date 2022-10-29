@@ -37,6 +37,25 @@
   background: #756257;
 }
 
+.button-large {
+  font-size: 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.content {
+  font-size: 22px;
+  line-height: 26px;
+  /* text-align: center; */
+}
+
 /* Header */
 
 .navigation-list {
@@ -51,21 +70,6 @@
 }
 
 /* Advantages */
-
-.welcome-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  /* text-align: center; */
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.welcome-content {
-  font-size: 22px;
-  line-height: 36px;
-  /* text-align: center; */
-}
 
 .advantages-list-inner {
   background-color: #FFFFFF;
@@ -107,26 +111,7 @@
   text-align: center;
 }
 
-.hotels-search {
-  background-color: #FFFFFF;
-}
-
-.hotels-search-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.hotels-search-description {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #333333;
-}
+/* Search hotel */
 
 .mailing-main {
   background-image: url("/images/background.jpg");
