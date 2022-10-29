@@ -33,7 +33,7 @@
   text-decoration: none;
 }
 
-.button-want {
+.button-brown {
   background: #756257;
 }
 
@@ -114,26 +114,16 @@
 /* Search hotel */
 
 .mailing-main {
-  background-image: url("/images/background.jpg");
+  background-image: url("/images/backgrounds/background.jpg");
   background-size: 100% auto;
 }
 
-.mailing-main-title {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
+.mailing-main .title,
+.mailing-main .content {
   color: #FFFFFF;
 }
 
-.mailing-main-description {
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  color: #FFFFFF;
-}
+/* Footer */
 
 .main-footer {
   background-color: #FFFFFF;
