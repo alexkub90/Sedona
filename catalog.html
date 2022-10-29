@@ -150,17 +150,24 @@
       <h2 class="visually-hidden">Результаты поиска</h2>
       <p class="sorting-result-title">Найдено гостиниц: 38</p>
 
-      <form class="sorting-form">
-        <label class="visually-hidden" for="sorting">Сортировка</label>
-        <select class="select-control" name="sorting" id="sorting">
-          <option value="cheap">Сначала дешевые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="popular">Сначала популярные</option>
-          <option value="comfort">Сначала комфортные</option>
-        </select>
-        <!-- Кнопку возможно придеться переделать -->
-        <button class="visually-hidden" type="submit">Отсортировать гостиницы</button>
-      </form>
+      <details class="sorting-form">
+        <summary class="button-select">Сначала дешёвые</summary>
+
+        <ul class="select-list">
+          <li class="select-item select-item-active">
+            <a class="select-option" href="#">Сначала дешёвые</a>
+          </li>
+          <li class="select-item">
+            <a class="select-option" href="#">Сначала дорогие</a>
+          </li>
+          <li class="select-item">
+            <a class="select-option" href="#">Сначала популярные</a>
+          </li>
+          <li class="select-item">
+            <a class="select-option" href="#">Сначала комфортные</a>
+          </li>
+        </ul>
+      </details>
 
       <!-- Способ отображения результатов -->
       <ul class="mode-list">

@@ -197,11 +197,10 @@
   color: #000000;
 }
 
-.select-control {
+.select-list {
+  font-family: inherit;
   font-weight: 400;
   font-size: 18px;
-  line-height: 23px;
-  color: #333333;
 }
 
 .hotel-card-link {
