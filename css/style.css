@@ -231,57 +231,19 @@
   text-decoration: none;
 }
 
-/* .pagination-link-current {
+.mailing-main-title {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
+  font-size: 30px;
   color: #000000;
-  text-decoration: none;
-} */
-
-/* .pagination-link {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
-} */
-
-.shown-pieces-title {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  color: #333333;
 }
 
-.select-button {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  color: #333333;
+.mailing-main-description {
+  font-size: 22px;
 }
 
 .field-input {
-  font-weight: 400;
   font-size: 18px;
-  line-height: 26px;
-  /* display: flex;
-  align-items: center; */
+  opacity: 0, 6;
   color: #000000;
-  opacity: 0.6;
-}
-
-.black {
-  color: #000000
-}
-
-.grey {
-  color: #333333;
 }
