@@ -29,12 +29,12 @@
   font-display: swap;
 }
 
-body {
+.page {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 26px;
   background: #F2F2F2;
-  color: #242424;
+  color: #333333;
 }
 
 .main-header {
