@@ -16,11 +16,21 @@
 
 /* General */
 
+.page {
+  height: 100%;
+  background-color: #F2F2F2;
+}
+
 .body {
+  background-color: #FFFFFF;
+  width: 1200px;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
-  /* background: #F2F2F2; */
   color: #333333;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .button {
@@ -64,9 +74,29 @@
   /* text-align: center; */
 }
 
+/* Main */
+
+.main-container {
+  flex-grow: 1;
+}
+
+.main-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* Header */
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 72px;
+}
+
 .navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -79,16 +109,32 @@
 
 /* Advantages */
 
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  max-width: 1200px;
+}
+
 .advantages-list-inner {
   background-color: #FFFFFF;
   color: #333333;
 }
 
 .advantages-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 384px;
   background: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item-large {
+  width: 1200px;
+  height: 384px;
   color: #FFFFFF;
   background: #83B3D3;
 }
