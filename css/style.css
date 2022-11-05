@@ -22,15 +22,15 @@
 }
 
 .body {
+  display: flex;
+  flex-direction: column;
   background-color: #FFFFFF;
   width: 1200px;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   color: #333333;
   margin: 0px auto;
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
 }
 
 .button {
@@ -63,7 +63,7 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  /* text-align: center; */
+  text-align: center;
   text-transform: uppercase;
   color: #000000;
 }
@@ -71,7 +71,7 @@
 .content {
   font-size: 22px;
   line-height: 26px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 /* Main */
@@ -90,12 +90,12 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  padding: 0px 72px;
+  padding: 0px 70px;
 }
 
 .navigation-list {
-  margin: 0;
   padding: 0;
+  margin: 0;
   list-style-type: none;
   font-weight: 700;
   font-size: 20px;
@@ -108,15 +108,20 @@
 }
 
 /* Advantages */
+.index-promo {
+  min-height: 485px;
+  background-color: #83B3D3;
+  background-image: url("/images/backgrounds/index-background.jpg");
+  /* background-size: cover; */
+}
+
+.advantages {
+  text-align: center;
+}
 
 .advantages-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-  max-width: 1200px;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-list-inner {
@@ -125,16 +130,10 @@
 }
 
 .advantages-item {
-  display: flex;
-  flex-wrap: wrap;
-  width: 400px;
-  height: 384px;
   background: rgba(131, 179, 211, 0.12);
 }
 
 .advantages-item-large {
-  width: 1200px;
-  height: 384px;
   color: #FFFFFF;
   background: #83B3D3;
 }
@@ -166,6 +165,9 @@
 }
 
 /* Search hotel */
+.hotels-search {
+  text-align: center;
+}
 
 .mailing-main {
   background-image: url("/images/backgrounds/background.jpg");
@@ -177,10 +179,21 @@
   color: #FFFFFF;
 }
 
+.mailing-main-form {
+  text-align: center;
+}
+
 /* Footer */
 
 .main-footer {
-  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 72px;
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
 }
 
 .footer-phone {
