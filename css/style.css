@@ -208,6 +208,12 @@
 
 /* Catalog styles */
 
+.catalog-filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .breadcrumbs {
   font-size: 16px;
 }
