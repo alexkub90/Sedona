@@ -94,11 +94,6 @@
   flex-grow: 1;
 }
 
-.main-content {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 /* Header */
 /* Правильно */
 .navigation {
@@ -106,10 +101,6 @@
   justify-content: space-between;
   padding: 0px 71px;
 }
-
-/* .logo {
-  margin-right: 15px;
-} */
 
 .navigation-list {
   flex-grow: 1;
@@ -124,6 +115,7 @@
 }
 
 .navigation-item {
+  list-style-type: none;
   display: flex;
   align-items: center;
 }
@@ -165,6 +157,7 @@
 }
 
 .advantages-list {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -233,12 +226,26 @@
 .main-footer {
   display: flex;
   justify-content: space-between;
-  padding: 0 72px;
+  padding: 30px 72px;
 }
 
 .social-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  outline: 1px dotted red;
+}
+
+.social-item {
+  margin: 0 2px;
 }
 
 .footer-phone {
