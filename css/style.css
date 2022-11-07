@@ -16,11 +16,13 @@
 
 /* General */
 
+/* Верно */
 .page {
   height: 100%;
   background-color: #F2F2F2;
 }
 
+/* Верно */
 .body {
   display: flex;
   flex-direction: column;
@@ -55,15 +57,7 @@
 }
 
 .button-brown {
-  display: inline-block;
   background: #756257;
-  border-radius: 4px;
-  width: 160px;
-  height: 37px;
-  text-align: center;
-  vertical-align: middle;
-  padding: 0;
-  margin: 0;
 }
 
 .button-large {
@@ -95,6 +89,7 @@
 
 /* Main */
 
+/* Правильно */
 .main-container {
   flex-grow: 1;
 }
@@ -105,29 +100,32 @@
 }
 
 /* Header */
-
+/* Правильно */
 .navigation {
   display: flex;
-  /* height: 66px; */
   justify-content: space-between;
-  padding: 0px 70px;
+  padding: 0px 71px;
 }
 
-.logo {
-  margin-right: 30px;
-}
+/* .logo {
+  margin-right: 15px;
+} */
 
 .navigation-list {
+  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   padding: 0;
-  margin: 0;
-  margin-right: auto;
+  margin: 0 30px;
   list-style-type: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+}
+
+.navigation-item {
+  display: flex;
+  align-items: center;
 }
 
 .navigation-link {
@@ -137,9 +135,21 @@
   text-decoration: none;
 }
 
+.link-button {
+  display: block;
+  width: 42px;
+  height: 42px;
+}
+
 .additional-menu {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.additional-want-here {
+  display: block;
+  margin-left: 20px;
 }
 
 /* Advantages */
