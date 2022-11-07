@@ -33,6 +33,17 @@
   margin: 0px auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .button {
   font-family: inherit;
   font-size: 16px;
@@ -44,7 +55,15 @@
 }
 
 .button-brown {
+  display: inline-block;
   background: #756257;
+  border-radius: 4px;
+  width: 160px;
+  height: 37px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
 }
 
 .button-large {
@@ -89,13 +108,22 @@
 
 .navigation {
   display: flex;
+  /* height: 66px; */
   justify-content: space-between;
   padding: 0px 70px;
 }
 
+.logo {
+  margin-right: 30px;
+}
+
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 0;
   margin: 0;
+  margin-right: auto;
   list-style-type: none;
   font-weight: 700;
   font-size: 20px;
@@ -103,8 +131,15 @@
 }
 
 .navigation-link {
+  display: block;
+  padding: 20px 17px;
   color: #000000;
   text-decoration: none;
+}
+
+.additional-menu {
+  display: flex;
+  align-items: center;
 }
 
 /* Advantages */
