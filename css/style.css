@@ -16,13 +16,11 @@
 
 /* General */
 
-/* Верно */
 .page {
   height: 100%;
   background-color: #F2F2F2;
 }
 
-/* Верно */
 .body {
   display: flex;
   flex-direction: column;
@@ -31,8 +29,10 @@
   width: 1200px;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
+  line-height: 21px;
   color: #333333;
   margin: 0px auto;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
 }
 
 .visually-hidden {
@@ -53,7 +53,6 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-  margin: 0;
 }
 
 
@@ -93,28 +92,41 @@
 }
 
 /* Header */
-/* Правильно */
+
+.main-header {
+  min-height: 66px;
+}
+
 .logo {
+  position: relative;
+  z-index: 2;
+  min-width: 139px;
+}
+
+.logo img {
   position: absolute;
 }
 
 .navigation {
   display: flex;
-  max-height: 65px;
-  justify-content: space-between;
+  width: 1060px;
+  margin: 0 auto;
   padding: 0px 70px;
 }
 
 .navigation-list {
-  flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   padding: 0;
-  margin: 0 30px 0px 170px;
+  margin: 0;
+  margin-left: 47px;
+  margin-right: 267px;
   list-style-type: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
+  min-width: 345px;
 }
 
 /* Подчеркивание активной ссылки */
@@ -131,13 +143,14 @@
 
 .navigation-item {
   list-style-type: none;
+  padding: 20px 34px 20px 0px;
   display: flex;
   align-items: center;
 }
 
 .navigation-link {
   display: block;
-  padding: 20px 17px;
+
   color: #000000;
   text-decoration: none;
 }
@@ -150,13 +163,21 @@
 
 .additional-menu {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  min-width: 264px;
+  margin: 0;
+  padding: 0;
   flex-wrap: wrap;
 }
 
 .additional-want-here {
   display: block;
+  text-align: center;
+  margin-top: 14px;
   margin-left: 20px;
+  height: 30px;
+  width: 160px;
+  /* margin-left: 20px; */
 }
 
 /* Advantages */
