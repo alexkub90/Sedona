@@ -117,6 +117,18 @@
   line-height: 26px;
 }
 
+/* Подчеркивание активной ссылки */
+.navigation-active::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 68px;
+  top: 66px;
+  bottom: 0;
+  background-color: #756257;
+  z-index: 1;
+}
+
 .navigation-item {
   list-style-type: none;
   display: flex;
@@ -149,11 +161,19 @@
 
 /* Advantages */
 .index-promo {
-  display: flex;
+  position: relative;
+  padding-top: 51px;
+  background-image: url(/images/backgrounds/index-background.jpg);
+  background-color: #768693;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* display: flex;
   flex-direction: column;
   min-height: 485px;
   background-color: #83B3D3;
   background: url("/images/backgrounds/index-background.jpg");
+  background-size: cover; */
 }
 
 .promo-img {
