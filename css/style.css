@@ -53,13 +53,9 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  margin: 0;
 }
 
-.content {
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-}
 
 /* Buttons */
 
@@ -98,10 +94,15 @@
 
 /* Header */
 /* Правильно */
+.logo {
+  position: absolute;
+}
+
 .navigation {
   display: flex;
+  max-height: 65px;
   justify-content: space-between;
-  padding: 0px 71px;
+  padding: 0px 70px;
 }
 
 .navigation-list {
@@ -109,7 +110,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin: 0 30px;
+  margin: 0 30px 0px 170px;
   list-style-type: none;
   font-weight: 700;
   font-size: 20px;
@@ -148,19 +149,39 @@
 
 /* Advantages */
 .index-promo {
+  display: flex;
+  flex-direction: column;
   min-height: 485px;
   background-color: #83B3D3;
-  background-image: url("/images/backgrounds/index-background.jpg");
+  background: url("/images/backgrounds/index-background.jpg");
 }
 
 .promo-img {
   display: block;
   margin: auto;
-  padding-top: 46px;
+  margin-top: 51px;
+}
+
+.promo-img-2 {
+  display: block;
 }
 
 .advantages {
+  margin-top: 63px;
   text-align: center;
+}
+
+.advantages-content {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin-top: 36px;
+  margin-bottom: 85px;
+}
+
+.advantages-main-title {
+  padding: auto;
+  outline: 1px dotted red;
 }
 
 .advantages-list {
@@ -172,13 +193,13 @@
 }
 
 .advantages-list-inner {
-  display: flex;
   background-color: #FFFFFF;
   color: #333333;
 }
 
 .advantages-item {
   display: flex;
+  flex-direction: column;
   background: rgba(131, 179, 211, 0.12);
 }
 
@@ -188,7 +209,6 @@
 }
 
 .advantages-item-large {
-  flex-grow: 1;
   color: #FFFFFF;
   background: #83B3D3;
 }
