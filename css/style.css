@@ -299,6 +299,7 @@
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .advantages-description {
@@ -314,15 +315,28 @@
   padding-bottom: 0px;
 }
 
-.title-house {
+.svg-food {
+  display: block;
+  margin: 0;
+  padding: 91px 163px 0px 163px;
+}
+
+.svg-souvenirs {
+  display: block;
+  padding: 85px 168px 0px 168px;
+}
+
+.title-service {
   margin-top: 23px;
   margin-bottom: 0;
 }
 
-.description-house {
+.description-service {
   margin-top: 20px;
   margin-bottom: 79px;
 }
+
+
 
 /* Search hotel */
 .hotels-search {
