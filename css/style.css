@@ -360,11 +360,37 @@
   margin-bottom: 79px;
 }
 
-
-
 /* Search hotel */
 .hotels-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 417px;
   text-align: center;
+}
+
+.search-title {
+  margin-top: 91px;
+  margin-bottom: 0;
+}
+
+.search-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  margin-top: 29px;
+  margin-bottom: 0;
+}
+
+.hotels-search-button {
+  line-height: 36px;
+  padding-top: 15px;
+  padding-bottom: 9px;
+  min-width: 575px;
+  border-radius: 10px;
+  margin-top: 56px;
+  margin-bottom: 93px;
 }
 
 .mailing-main {
