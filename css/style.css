@@ -309,10 +309,7 @@
 .svg-house {
   display: block;
   margin: 0;
-  padding-top: 89px;
-  padding-left: 163px;
-  padding-right: 163px;
-  padding-bottom: 0px;
+  padding: 89px 163px 0px 163px;
 }
 
 .svg-food {
