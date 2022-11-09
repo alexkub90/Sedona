@@ -164,10 +164,11 @@
 .additional-menu {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   min-width: 264px;
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .additional-btn-brown {
