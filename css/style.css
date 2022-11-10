@@ -362,16 +362,16 @@
 
 /* Search hotel */
 .hotels-search {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   min-height: 417px;
   text-align: center;
+  padding-top: 91px;
+  padding-bottom: 93px;
+  box-sizing: border-box;
 }
 
 .search-title {
-  margin-top: 91px;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .search-description {
@@ -380,18 +380,22 @@
   line-height: 26px;
   color: #333333;
   margin-top: 29px;
+  text-align: center;
   margin-bottom: 0;
 }
 
 .hotels-search-button {
+  display: block;
+  margin-left: 312px;
   line-height: 36px;
   padding-top: 15px;
   padding-bottom: 9px;
-  min-width: 575px;
+  width: 575px;
   border-radius: 10px;
   margin-top: 56px;
-  margin-bottom: 93px;
 }
+
+/* Subscription */
 
 .subscription-main {
   display: flex;
@@ -420,15 +424,20 @@
 }
 
 .subscription-main-form {
+  display: flex;
   margin-top: 46px;
   margin-bottom: 94px;
   text-align: center;
-
 }
 
-.field-input {
+input {
+  border-radius: 10px 0px 0px 10px;
+  border: 3px transparent;
+  box-sizing: border-box;
+  padding-left: 22px;
+  padding-right: 19px;
   min-width: 600px;
-  min-width: 60px;
+  min-height: 60px;
 }
 
 /* Footer */
