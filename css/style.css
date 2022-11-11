@@ -440,6 +440,14 @@ input {
   min-height: 60px;
 }
 
+.btn-submit {
+  border-radius: 0px 10px 10px 0px;
+  box-sizing: border-box;
+  border: transparent;
+  width: 200px;
+  height: 60px;
+}
+
 /* Footer */
 
 .main-footer {
