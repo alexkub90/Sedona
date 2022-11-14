@@ -59,7 +59,7 @@
 
   <main class="main-container catalog-page">
     <div class="catalog-container">
-      <section class="breadcrumbs">
+      <header class="breadcrumbs">
         <h1 class="breadcrumbs-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-item">
@@ -101,54 +101,85 @@
             </a>
           </li>
         </ul>
-      </section>
+      </header>
       <!-- ФИЛЬТРЫ -->
       <section class="filter">
         <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset class="catalog-filter-group">
+          <fieldset class="catalog-filter-group filter-infrastructure">
             <!-- Фильтр инфраструктура -->
-            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <!-- Переделать чекбоксы -->
+            <legend class="catalog-filter-title title-infrastructure">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
+              <li class="ifrastructure-item ">
                 <label class="control">
-                  <input class="visually-hidden control-input" type="checkbox" checked name="swimming-pool">
-                  <span class="control-label">Бассейн</span>
+                  <input class="visually-hidden control-input" type="checkbox" checked name="infrastructure[]"
+                    value="swimming-pool">
+                  <svg class="svg-checkbox" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="20" rx="4" fill="white" />
+                    <g clip-path="url(#clip0_31961_600)">
+                      <path d="M15 5L8.5 12.4L5.1 8.5L4 9.7L8.5 14.9L16.2 6.3L15 5Z" fill="#3F5E72" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_31961_600">
+                        <rect width="12.2" height="9.9" fill="white" transform="translate(4 5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span class="checkbox-title">Бассейн</span>
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="ifrastructure-item">
                 <label class="control">
-                  <input class="visually-hidden control-input" type="checkbox" checked name="parking">
-                  <span class="control-label">Парковка</span>
+                  <input class="visually-hidden control-input" type="checkbox" checked name="infrastructure[]"
+                    value="parking">
+                  <svg class="svg-checkbox" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="20" rx="4" fill="white" />
+                    <g clip-path="url(#clip0_31961_600)">
+                      <path d="M15 5L8.5 12.4L5.1 8.5L4 9.7L8.5 14.9L16.2 6.3L15 5Z" fill="#3F5E72" />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_31961_600">
+                        <rect width="12.2" height="9.9" fill="white" transform="translate(4 5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <span class="checkbox-title">Парковка</span>
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="ifrastructure-item">
                 <label class="control">
-                  <input class="visually-hidden control-input" type="checkbox" name="wi-fi">
-                  <span class="control-label">WI-FI</span>
+                  <input class="visually-hidden control-input" type="checkbox" name="infrastructure[]" value="wi-fi">
+                  <svg class="svg-checkbox" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="20" rx="4" fill="white" />
+                  </svg>
+                  <span class="checkbox-title">WI-FI</span>
                 </label>
               </li>
             </ul>
           </fieldset>
           <!-- Фильтр тип жилья -->
-          <fieldset class="catalog-filter-group">
+          <fieldset class="catalog-filter-group filter-type-house">
             <legend class="catalog-filter-title">Тип жилья</legend>
             <ul class="catalog-filter-list">
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="radio" checked name="hotel">
+                  <input class="visually-hidden control-input" type="radio" checked name="hotel">
                   <span class="control-label">Гостиница</span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="radio" name="motel">
+                  <input class="visually-hidden control-input" type="radio" name="motel">
                   <span class="control-label">Мотель</span>
                 </label>
               </li>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="radio" name="Apartments">
+                  <input class="visually-hidden control-input" type="radio" name="Apartments">
                   <span class="control-label">Апартаменты</span>
                 </label>
               </li>

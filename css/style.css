@@ -554,6 +554,17 @@ input {
 
 /* Catalog styles */
 
+.catalog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-image: url("/images/backgrounds/catalog-background\ 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
 /* Breadcrambs */
 
 .breadcrumbs-title {
@@ -561,7 +572,7 @@ input {
   margin: 0;
   color: #FFFFFF;
   font-size: 60px;
-  line-height: 78px;
+  line-height: 77px;
 }
 
 .breadcrumbs {
@@ -602,36 +613,73 @@ input {
   z-index: 1;
 }
 
+/* Filters */
+.filter {
+  display: flex;
+  margin-left: 71px;
+  margin-top: 45px;
+}
+
 .catalog-filter {
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
-
-
-.catalog-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  background-image: url("/images/backgrounds/catalog-background\ 1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #FFFFFF;
+.catalog-filter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
 }
-
-
 
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
+  line-height: 26px;
+  padding: 0;
+}
+
+.title-infrastructure {
+  margin-right: 67px;
+}
+
+.filter-infrastructure {
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 1px;
+}
+
+.ifrastructure-item:nth-child(2) {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.svg-checkbox {
+  margin-top: 1px;
+  margin-left: 1px;
+  vertical-align: text-top;
+  margin-right: 15px;
+}
+
+.checkbox-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filter-type-house {
+  display: flex;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 .control,
 .range-title {
   font-weight: 400;
   font-size: 18px;
+  line-height: 23px;
 }
 
 .range-transparent {
