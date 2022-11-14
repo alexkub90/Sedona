@@ -554,27 +554,74 @@ input {
 
 /* Catalog styles */
 
+/* Breadcrambs */
+
+.breadcrumbs-title {
+  height: 72px;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs {
+  margin: 34px 0 0 71px;
+  font-size: 16px;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 2px;
+}
+
+.breadcrumbs-item:nth-child(2) {
+  margin-left: 11px;
+  margin-right: 10px;
+}
+
+.breadcrumbs-link {
+  font-family: inherit;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.nav-link-catalog::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 94px;
+  top: 64px;
+  bottom: 0;
+  background-color: #756257;
+  z-index: 1;
+}
+
 .catalog-filter {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.breadcrumbs {
-  font-size: 16px;
-}
 
-.catalog-main {
+
+.catalog-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
   background-image: url("/images/backgrounds/catalog-background\ 1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFFFFF;
 }
 
-.catalog-header-title {
-  color: #FFFFFF;
-  font-size: 60px;
-}
+
 
 .catalog-filter-title {
   font-weight: 700;
